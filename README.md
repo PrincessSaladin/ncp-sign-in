@@ -1,8 +1,11 @@
 # ncp-sign-in
-ZUCC NCP疫情钉钉自动健康打卡
+ZUCC NCP疫情钉钉自动健康打卡脚本
+
+请按实填写表单！为自己和他人的健康负责。
 
 ## Getting Started
-- 前往[ChromeDriver下载页](http://chromedriver.storage.googleapis.com/)，下载chromedriver
+- 安装Python3.x环境
+- 前往[ChromeDriver下载页](http://chromedriver.storage.googleapis.com/index.html?path=80.0.3987.16/)(80.0.3987.16版本)，下载chromedriver
 - 解压后，将chromedriver添加到环境变量中
 - 安装`selenium`依赖：
   ```
