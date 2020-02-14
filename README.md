@@ -5,13 +5,12 @@ ZUCC NCP疫情钉钉自动健康打卡脚本
 
 ## Getting Started
 - 安装Python3.x环境
-- 前往[ChromeDriver下载页](http://chromedriver.storage.googleapis.com/index.html?path=80.0.3987.16/)(80.0.3987.16版本)，下载chromedriver
-- 解压后，将chromedriver添加到环境变量中
 - 安装`selenium`依赖：
   ```
   pip install --user selenium
   ```
 - 修改`signed.py`脚本中的账号密码（统一身份认证），按需要取消填充表单代码（修改注释代码中的所在地）
+- 按自己的操作系统，修改`signed.py`脚本中调用的chromedriver
 - 第一次运行时，取消提交表单的代码，查看登录和表单填写是否正常
 
 ## 定时执行
@@ -27,8 +26,9 @@ ZUCC NCP疫情钉钉自动健康打卡脚本
   pip install --user schedule
   ```
 - 修改`auto_signed.py`中的账号密码（统一身份认证），按需要取消填充表单代码（修改注释代码中的所在地）
+- 按自己的操作系统，修改`auto_signed.py`脚本中调用的chromedriver
 - 修改打卡时间
-- 运行`auto_signed.py`
+- 运行`auto_signed.py`，自动签到
 
 ## License
 CatMock is available under the terms of the [MIT License](https://opensource.org/licenses/MIT).
